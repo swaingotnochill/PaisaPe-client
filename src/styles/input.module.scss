@@ -1,0 +1,30 @@
+.inputContainer {
+    width: 100%;
+    background-color: #1a1a1a;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.inputContainerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & .inputLabel {
+        font-size: 0.9rem;
+        color: #8d8d8d;
+    }
+    & .inputError {
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #ff0000;
+    }
+}
+
+.inputField {
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    font-family: 'Inter';
+    font-size: 16px;
+}
